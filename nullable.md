@@ -1,6 +1,6 @@
 <a name="data_type-nullable"></a>
 
-# Nullable(TypeName)
+# Nullable(TypeName) {: #data_type-nullable}
 
 Позволяет хранить в таблице значение `NULL` вместо значения типа `TypeName`.
 
