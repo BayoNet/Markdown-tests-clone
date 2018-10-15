@@ -41,7 +41,9 @@ Examples of a column-oriented DBMS: Vertica, Paraccel (Actian Matrix and Amazon 
 
 ![Row-oriented](./images/row_oriented.gif#)
 
-<details><summary>Example</summary>
+Example
+
+<details>
 <p><pre>$ clickhouse-client
 ClickHouse client version 0.0.52053.
 Connecting to localhost:9000.
