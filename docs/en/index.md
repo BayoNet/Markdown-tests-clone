@@ -2,6 +2,8 @@
 
 For the CrowdIn test.
 
+Adding a [cross-link](../dome_file), and a [web link](https://google.com).
+
 One more segment.
 
 !!!
