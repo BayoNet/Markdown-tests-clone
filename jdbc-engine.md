@@ -9,12 +9,12 @@ This engine supports the [Nullable](../../data_types/nullable.md) data type.
 ## Creating a Table
 
 ```
-CREATE TABLE [IF NOT EXISTS] [db.]table_name  ENGINE = ODBC(uri, external_database, external_table)
+CREATE TABLE [IF NOT EXISTS] [db.]table_name  ENGINE = ODBC(dbms_uri, external_database, external_table)
 ```
 
 **Engine Parameters**
 
-- `url` — Database URL.
+- `dbms_uri` — URI of external DBMS.
 
     Format: `jdbc:<driver_name>://<host_name>:<port>/?user=<username>&password=<password>`.
     Example for MySQL: `jdbc:mysql://localhost:3306/?user=root&password=root`.
