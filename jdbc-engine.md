@@ -19,7 +19,7 @@ CREATE TABLE [IF NOT EXISTS] [db.]table_name  ENGINE = ODBC(dbms_uri, external_d
     Format: `jdbc:<driver_name>://<host_name>:<port>/?user=<username>&password=<password>`.
     Example for MySQL: `jdbc:mysql://localhost:3306/?user=root&password=root`.
 
-- `external_database` — Database in external DBMS.
+- `external_database` — Database in an external DBMS.
 - `external_table` — A name of the table in `external_database`.
 
 ## Example of Use
