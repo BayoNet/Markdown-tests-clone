@@ -17,11 +17,6 @@ CREATE TABLE [IF NOT EXISTS] [db.]table_name [ON CLUSTER cluster]
     INDEX index_name1 expr1 TYPE type1(...) GRANULARITY value1,
     INDEX index_name2 expr2 TYPE type2(...) GRANULARITY value2
 ) ENGINE = ODBC()
-[PARTITION BY expr]
-[ORDER BY expr]
-[PRIMARY KEY expr]
-[SAMPLE BY expr]
-[TTL expr]
 [SETTINGS name=value, ...]
 ```
 
