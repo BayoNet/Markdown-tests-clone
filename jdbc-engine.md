@@ -14,7 +14,7 @@ CREATE TABLE [IF NOT EXISTS] [db.]table_name  ENGINE = ODBC(dbms_uri, external_d
 
 **Engine Parameters**
 
-- `dbms_uri` — URI of external DBMS.
+- `dbms_uri` — URI of an external DBMS.
 
     Format: `jdbc:<driver_name>://<host_name>:<port>/?user=<username>&password=<password>`.
     Example for MySQL: `jdbc:mysql://localhost:3306/?user=root&password=root`.
@@ -22,9 +22,9 @@ CREATE TABLE [IF NOT EXISTS] [db.]table_name  ENGINE = ODBC(dbms_uri, external_d
 - `external_database` — Database in an external DBMS.
 - `external_table` — A name of the table in `external_database`.
 
-## Example of Use
+## Usage Example
 
-Example of interaction with MySQL:
+Creating a table in MySQL:
 
 ```
 mysql> CREATE TABLE `test`.`test` (
@@ -47,7 +47,7 @@ mysql> select * from test;
 1 row in set (0,00 sec)
 ```
 
-From clickhouse-client:
+Selecting data from the table in ClickHouse:
 
 ```
 CREATE TABLE jdbc_table ENGINE JDBC('jdbc:mysql://localhost:3306/?user=root&password=root', 'test', 'test')
