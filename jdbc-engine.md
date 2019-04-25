@@ -2,7 +2,7 @@
 
 Allows ClickHouse to connect to external databases via JDBC.
 
-To implement JDBC connection, ClickHouse uses the separate program `clickhouse-jdbc-bridge`. You should run it as a demon.
+To implement JDBC connection, ClickHouse uses the separate program [clickhouse-jdbc-bridge](https://github.com/alex-krash/clickhouse-jdbc-bridge). You should run it as a demon.
 
 This engine supports the [Nullable](../../data_types/nullable.md) data type.
 
