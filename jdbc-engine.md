@@ -1,5 +1,6 @@
 # JDBC
 
+
 Allows ClickHouse to connect to external databases via JDBC.
 
 To implement JDBC connection, ClickHouse uses the separate program [clickhouse-jdbc-bridge](https://github.com/alex-krash/clickhouse-jdbc-bridge). You should run it as a demon.
@@ -40,7 +41,7 @@ Query OK, 1 row affected (0,00 sec)
 
 mysql> select * from test;
 +--------+--------------+-------+----------------+
-| int_id | int_nullable | float | float_nullable | 
+| int_id | int_nullable | float | float_nullable |
 +--------+--------------+-------+----------------+
 |      1 |         NULL |     2 |           NULL |
 +--------+--------------+-------+----------------+
